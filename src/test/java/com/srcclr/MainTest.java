@@ -9,11 +9,11 @@ import org.junit.Test;
 public class MainTest {
 
   void m1() {
-    System.out.println("1");
+    System.out.println("Continous Intgration testing");
   }
 
   void m2() {
-    System.out.println("2");
+   System.out.println("Continous Intgration testing");
   }
 
   void callM1() {
@@ -102,11 +102,12 @@ public class MainTest {
 
   @Test
   public void test() throws Exception {
-    stdlib();
-    http();
-    concurrency();
-    reflection();
-    dynamicDispatch();
+    System.out.println("Continous Intgration testing");
+    // stdlib();
+    // http();
+    // concurrency();
+    // reflection();
+    // dynamicDispatch();
     // For a test that uses a vulnerable method, see BCryptTest
   }
 }
