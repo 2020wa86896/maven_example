@@ -10,15 +10,7 @@ import java.io.ByteArrayInputStream;
 public class Main {
 
   public static void main(String[] args) throws Exception {
-    String candidate = args[0];
-    String hashed = BCrypt.hashpw(candidate, BCrypt.gensalt(12));
-
-    BCrypt.checkpw(candidate, hashed);
-
-    filterXMLSignature();
-
-    // Update Advisor: changed in the upgrade from Spring Web 3.1.1.RELEASE to 3.2.15.RELEASE
-    UriUtils.encodeFragment("", "");
+    System.out.println("Continous integration testing");
   }
 
   private static void filterXMLSignature() {
